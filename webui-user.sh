@@ -46,3 +46,5 @@
 #export NO_TCMALLOC="True"
 
 ###########################################
+export COMMANDLINE_ARGS="--opt-sub-quad-attention  --no-half-vae --disable-nan-check"
+export HSA_OVERRIDE_GFX_VERSION="9.0.0"
