@@ -46,5 +46,6 @@
 #export NO_TCMALLOC="True"
 
 ###########################################
-export COMMANDLINE_ARGS="--opt-sub-quad-attention  --no-half-vae --disable-nan-check"
+# export COMMANDLINE_ARGS="--opt-sub-quad-attention  --no-half-vae --disable-nan-check"
+export COMMANDLINE_ARGS="--use-cpu all --precision full --no-half --skip-torch-cuda-test"
 export HSA_OVERRIDE_GFX_VERSION="9.0.0"
