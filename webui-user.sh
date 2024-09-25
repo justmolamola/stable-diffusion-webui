@@ -46,6 +46,6 @@ export TORCH_COMMAND="pip install torch==2.2.2 torchvision==0.17.2 torchaudio==2
 #export NO_TCMALLOC="True"
 
 ###########################################
-# export COMMANDLINE_ARGS="--opt-sub-quad-attention  --no-half-vae --disable-nan-check"
-export COMMANDLINE_ARGS="--use-cpu all --precision full --no-half --skip-torch-cuda-test"
+export COMMANDLINE_ARGS="--opt-sub-quad-attention  --no-half-vae --disable-nan-check"
+# export COMMANDLINE_ARGS="--use-cpu all --precision full --no-half --skip-torch-cuda-test"
 export HSA_OVERRIDE_GFX_VERSION="9.0.0"
